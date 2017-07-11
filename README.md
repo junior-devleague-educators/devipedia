@@ -1,0 +1,2 @@
+# devipedia
+Common Dev Terms
