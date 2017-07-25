@@ -11,7 +11,7 @@
 
 **Git** - A version control system created by Linus Torvalds that allows you to manage changes to your project and allows for easy collaboration with other developers. Git allows developers to track every change to their programs in the event that they ever have to go back and restore it’s original code. See git commands here. Practice git commands here.
 
-**Local Repo Vs. Remote Repo** -
+**Local Repo Vs. Remote Repo** - A local repo is a repo that is cloned to your local machine where a remote repo is the repo that you push changes to a repo stored on a remote server (online). 
 
 **Text Editor** - A system or program that allows a user to edit text.
 
@@ -31,9 +31,11 @@
 
 **Arguments/Parameters** - The parameters are the aliases for the values that will be passed to the function. The arguments are the actual values.
 
-**Function Signature** -
+**Function Signature** - Defines input and output of functions or methods. Signatures can include parameters and their type, return values, and exceptions that might be thrown or passed back. Ex. MyObject.prototype.myFunction(value)
 
-**Function Return Values** -
+**Function Return Values** - Values that are returne by a function when it completes. Ex. function random(number) {
+  return Math.floor(Math.random()*number);
+}
 
 **Iteration** - A sequence of instructions which are repeated. For example, to perform an action for every item in a list you would “iterate” over that list. Each time it is repeated  is one iteration.
 
@@ -65,7 +67,7 @@
 
 **HTML** - Hypertext Markup Language, HTML is the structure of a web site. It is the structure that holds your web content.
 
-**Web Content** - 
+**Web Content** - The combination of attributes that make up the part of the user experience on websites. This can include text, images, sounds, videos and more.
 
 **MVP** - A minimum viable product (MVP) is a development technique in which a new product or website is developed with sufficient features to satisfy basic functionality of requirements.
 
@@ -103,24 +105,24 @@
 
 **Concatenation** - Is a method of combining strings together using the (+) operator. This method does not change the existing strings, but returns a new string containing the text of the joined strings.
 
-**Anonymous Object** - 
+**Anonymous Object** - Is an object that doesn't have a name assignment. They can be passed as arguments to functions. Ex. addItem({})
 
-**Key Value Pairs** -
+**Key Value Pairs** - Unlike arrays, objects use strings to accesss different elements within an object. The strings are called "Keys", and the elements they point to are called "values". Javascript knows that the keys will always be strings so isn't always neccesary to include quotes areound the keys.  Ex. var person = {name: "bob"} =  var person = {"name": "bob"}
 
-**Multi Demensional Arrays** -
+**Multi Demensional Arrays** - Are technically arrays within arrays or nested arrays. Ex. var person = [['name1','name2'], ['name3', name4']]. Accessing these arrays follows the syntax of person[0][0] = 'name1'
 
-**Events** -
+**Events** - These are any event that takes place in the DOM such as a mouseEvent event
 
-**Framework** -
+**Framework** - Are a collection of componets and libraries used for a specific purpose. Ex. client-side framework such as Angular
 
-**Libraries** -
+**Libraries** - Are a collection of tools and packages designed to easily implement features that traditionally would have to be coded from scratch. Ex. Express - is a web framework for building web applications and API's.
 
-**Browser** -
+**Browser** - Is an application that is responsbile for presenting, retreiving, and navigating through information on the web.
 
-**Dev Tools** -
+**Dev Tools** - A set of tools built into the browser with a wide range of uses from inspecting to debugging and more.
 
-**ECMA Script** -
+**ECMA Script** - Is a standard for scripting languages which Javascript is built off.
 
-**Vanilla JavaScript** -
+**Vanilla JavaScript** - Is Javascript that is not extended by any frameworks or additional libraries.
 
-**Google Foo** -
+**Google Foo** - A placeholder name in programming languages that can be used for variables and functions to prove concepts.
