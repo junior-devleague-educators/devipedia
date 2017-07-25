@@ -1,5 +1,5 @@
-# Devipedia
-*Common Terminology in Software Development*
+# JS Devipedia
+*Common Terminology in JavaScript Software Development*
 
 **Repository (Repo)** - The location where all files for a particular project are stored. Repositories can be created locally or online.
 
